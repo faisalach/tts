@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+/* POLA */
+.pola{
+    /* biar ditengah */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(217, 222, 223);
+}
+.pola table tr td{
+    position: relative;
+}
+.pola table tr td input{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase
+}
+.pola table tr td input.block{
+    background-color: rgb(126, 71, 230);
+    color: white;
+}
+.pola table tr td input.success{
+    background-color: rgb(22, 202, 52);
+    color: white;
+}
+.pola table tr td input.failed{
+    background-color: rgb(214, 45, 45);
+    color: white;
+}
+.pola table tr td sup{
+    position: absolute;
+    left:3px;
+    top: 0;
+    z-index: 9;
+}
+
+
+/* SOAL */
+.soal table{
+    width: 100%;
+}
+.soal table tbody{
+    vertical-align: top;
+}
+.soal table p{
+    margin-bottom: 10px;
+}
